@@ -3,8 +3,20 @@ import {SafeAreaView, StyleSheet} from 'react-native';
 import ReactNativeCalendarStrip from 'react-native-calendar-strip';
 import TransactionList from '../../components/transaction-list';
 import {Colors} from '../../styles';
+import {StackNavigationProp} from '@react-navigation/stack';
+import {TransactionStackParamList} from '../../navigations/transaction-navigator';
+import {NavigationConstant} from '../../constants';
 
-const DailyTransactionScreen = () => {
+export type DailyTransactionScreenNavigationProps = StackNavigationProp<
+  TransactionStackParamList,
+  NavigationConstant.AppScreens.DAILY
+>;
+
+type DailyTransactionScreenProps = {
+  navigation: DailyTransactionScreenNavigationProps;
+};
+
+const DailyTransactionScreen = ({navigation}: DailyTransactionScreenProps) => {
   return (
     <SafeAreaView>
       <ReactNativeCalendarStrip
@@ -12,7 +24,7 @@ const DailyTransactionScreen = () => {
         style={style.calendar}
         calendarColor={Colors.WHITE}
       />
-      <TransactionList />
+      <TransactionList navigation={navigation} />
     </SafeAreaView>
   );
 };

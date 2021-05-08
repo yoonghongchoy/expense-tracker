@@ -2,45 +2,50 @@ import React from 'react';
 import {FlatList, StyleSheet, Text, View} from 'react-native';
 import TransactionItem from '../transaction-item';
 import {Typography} from '../../styles';
+import {DailyTransactionScreenNavigationProps} from '../../screens/daily-transaction';
+
+type TransactionListProps = {
+  navigation: DailyTransactionScreenNavigationProps;
+};
 
 const data = [
   {
     id: 1,
     payee: 'Pizza Hut',
-    type: 'Expense',
-    category: 'Eating',
+    type: 1,
+    category: 5,
     date: '07-05-21',
     amount: 50.0,
   },
   {
     id: 2,
-    payee: 'Pizza Hut',
-    type: 'Expense',
-    category: 'Eating',
+    payee: 'Fitness gym',
+    type: 1,
+    category: 8,
     date: '07-05-21',
-    amount: 50.0,
+    amount: 100.0,
   },
   {
     id: 3,
-    payee: 'Pizza Hut',
-    type: 'Expense',
-    category: 'Eating',
+    payee: 'J42',
+    type: 1,
+    category: 14,
     date: '07-05-21',
     amount: 50.0,
   },
   {
     id: 4,
     payee: 'Pizza Hut',
-    type: 'Expense',
-    category: 'Eating',
+    type: 1,
+    category: 5,
     date: '07-05-21',
     amount: 50.0,
   },
   {
     id: 5,
     payee: 'Salary',
-    type: 'Income',
-    category: 'Bank',
+    type: 0,
+    category: 1,
     date: '07-05-21',
     amount: 5000.0,
   },
@@ -50,7 +55,7 @@ const totalAmount = data.reduce((acc, cur) => {
   return acc + cur.amount;
 }, 0);
 
-const TransactionList = () => {
+const TransactionList = ({navigation}: TransactionListProps) => {
   return (
     <View style={style.listContainer}>
       <FlatList
@@ -59,6 +64,7 @@ const TransactionList = () => {
           return (
             <TransactionItem
               key={transaction.item.id}
+              navigation={navigation}
               payee={transaction.item.payee}
               type={transaction.item.type}
               category={transaction.item.category}
