@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ExpenseTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ExpenseTrackerTests.m */; };
+		0EF443F76B4044C28D367480 /* GTWalsheimPro-Light.OTF in Resources */ = {isa = PBXBuildFile; fileRef = D31069B1FC034FEF88F803BB /* GTWalsheimPro-Light.OTF */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1DC1E029DC514A919ABA2C56 /* GTWalsheimPro-Medium.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 007A71F46186437AB7D75AB6 /* GTWalsheimPro-Medium.OTF */; };
 		258CDC00F6F29DAB456C50D9 /* libPods-ExpenseTracker-ExpenseTrackerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 569CF753DBC9B4E5FA8AD398 /* libPods-ExpenseTracker-ExpenseTrackerTests.a */; };
+		44409E3005854C7485A88E62 /* GTWalsheimPro-Regular.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 3A63CC35ACB943D396181C49 /* GTWalsheimPro-Regular.OTF */; };
 		6CAC53979F4EF92B93C581BA /* libPods-ExpenseTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E112F4AF2F3658FD4D01073 /* libPods-ExpenseTracker.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		C861C822B064431C97606600 /* GTWalsheimPro-Bold.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 9614934BE27B460D96977805 /* GTWalsheimPro-Bold.OTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		007A71F46186437AB7D75AB6 /* GTWalsheimPro-Medium.OTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GTWalsheimPro-Medium.OTF"; path = "../src/assets/fonts/GTWalsheimPro-Medium.OTF"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* ExpenseTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ExpenseTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpenseTrackerTests.m; sourceTree = "<group>"; };
@@ -37,11 +42,14 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ExpenseTracker/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ExpenseTracker/main.m; sourceTree = "<group>"; };
 		34A6BF79C54BDB4854F9B2FB /* Pods-ExpenseTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpenseTracker.release.xcconfig"; path = "Target Support Files/Pods-ExpenseTracker/Pods-ExpenseTracker.release.xcconfig"; sourceTree = "<group>"; };
+		3A63CC35ACB943D396181C49 /* GTWalsheimPro-Regular.OTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GTWalsheimPro-Regular.OTF"; path = "../src/assets/fonts/GTWalsheimPro-Regular.OTF"; sourceTree = "<group>"; };
 		569CF753DBC9B4E5FA8AD398 /* libPods-ExpenseTracker-ExpenseTrackerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExpenseTracker-ExpenseTrackerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ExpenseTracker/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8524893BF4E584F1DA22A2CA /* Pods-ExpenseTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpenseTracker.debug.xcconfig"; path = "Target Support Files/Pods-ExpenseTracker/Pods-ExpenseTracker.debug.xcconfig"; sourceTree = "<group>"; };
 		8B891D77B50725BA91E6537C /* Pods-ExpenseTracker-ExpenseTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpenseTracker-ExpenseTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-ExpenseTracker-ExpenseTrackerTests/Pods-ExpenseTracker-ExpenseTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E112F4AF2F3658FD4D01073 /* libPods-ExpenseTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExpenseTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9614934BE27B460D96977805 /* GTWalsheimPro-Bold.OTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GTWalsheimPro-Bold.OTF"; path = "../src/assets/fonts/GTWalsheimPro-Bold.OTF"; sourceTree = "<group>"; };
+		D31069B1FC034FEF88F803BB /* GTWalsheimPro-Light.OTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GTWalsheimPro-Light.OTF"; path = "../src/assets/fonts/GTWalsheimPro-Light.OTF"; sourceTree = "<group>"; };
 		DB14BEC20A20F60AD9D1AB81 /* Pods-ExpenseTracker-ExpenseTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpenseTracker-ExpenseTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-ExpenseTracker-ExpenseTrackerTests/Pods-ExpenseTracker-ExpenseTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -117,6 +125,17 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4C736A2774EE4E9991CF0198 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9614934BE27B460D96977805 /* GTWalsheimPro-Bold.OTF */,
+				D31069B1FC034FEF88F803BB /* GTWalsheimPro-Light.OTF */,
+				007A71F46186437AB7D75AB6 /* GTWalsheimPro-Medium.OTF */,
+				3A63CC35ACB943D396181C49 /* GTWalsheimPro-Regular.OTF */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +152,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				30FE55C76B6C724D7F76CA62 /* Pods */,
+				4C736A2774EE4E9991CF0198 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -244,6 +264,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C861C822B064431C97606600 /* GTWalsheimPro-Bold.OTF in Resources */,
+				0EF443F76B4044C28D367480 /* GTWalsheimPro-Light.OTF in Resources */,
+				1DC1E029DC514A919ABA2C56 /* GTWalsheimPro-Medium.OTF in Resources */,
+				44409E3005854C7485A88E62 /* GTWalsheimPro-Regular.OTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
