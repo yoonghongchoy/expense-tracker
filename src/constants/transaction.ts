@@ -4,7 +4,7 @@ export enum TransactionType {
 }
 
 export enum CategoryType {
-  Automobile,
+  AUTOMOBILE,
   BANK,
   CASH,
   CHARITY,
@@ -25,3 +25,26 @@ export enum CategoryType {
   TRAVEL,
   UTILITIES,
 }
+
+export const CategoryDropdown = [
+  {label: 'Automobile', value: CategoryType.AUTOMOBILE},
+  {label: 'Bank', value: CategoryType.BANK},
+  {label: 'Cash', value: CategoryType.CASH},
+  {label: 'Charity', value: CategoryType.CHARITY},
+  {label: 'Childcare', value: CategoryType.CHILDCARE},
+  {label: 'Eating', value: CategoryType.EATING},
+  {label: 'Education', value: CategoryType.EDUCATION},
+  {label: 'Entertainment', value: CategoryType.ENTERTAINMENT},
+  {label: 'Fitness', value: CategoryType.FITNESS},
+  {label: 'Groceries', value: CategoryType.GROCERIES},
+  {label: 'Loan', value: CategoryType.LOAN},
+  {label: 'Medical', value: CategoryType.MEDICAL},
+  {label: 'Others', value: CategoryType.OTHERS},
+  {label: 'Pets', value: CategoryType.PETS},
+  {label: 'Rent', value: CategoryType.RENT},
+  {label: 'Saving', value: CategoryType.SAVING},
+  {label: 'Shopping', value: CategoryType.SHOPPING},
+  {label: 'Transport', value: CategoryType.TRANSPORT},
+  {label: 'Travel', value: CategoryType.TRAVEL},
+  {label: 'Utilities', value: CategoryType.UTILITIES},
+];

@@ -24,7 +24,7 @@ import {
 
 export const getCategoryIcon = (type: TransactionConstant.CategoryType) => {
   switch (type) {
-    case TransactionConstant.CategoryType.Automobile: {
+    case TransactionConstant.CategoryType.AUTOMOBILE: {
       return faCar;
     }
     case TransactionConstant.CategoryType.BANK: {

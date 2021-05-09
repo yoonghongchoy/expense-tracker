@@ -7,7 +7,12 @@ import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import {faCalendarDay, faPlus} from '@fortawesome/free-solid-svg-icons';
 import {Colors} from '../styles';
 
-const Tab = createBottomTabNavigator();
+export type TabStackParamList = {
+  Daily: undefined;
+  Add: undefined;
+};
+
+const Tab = createBottomTabNavigator<TabStackParamList>();
 
 const RootNavigator = () => {
   return (

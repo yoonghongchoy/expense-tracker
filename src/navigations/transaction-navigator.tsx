@@ -5,10 +5,14 @@ import {NavigationConstant} from '../constants';
 import TransactionDetailScreen, {
   TransactionDetailParams,
 } from '../screens/transaction-detail';
+import EditTransactionScreen, {
+  EditTransactionParams,
+} from '../screens/edit-transaction';
 
 export type TransactionStackParamList = {
   Daily: undefined;
   Transaction: TransactionDetailParams;
+  Edit: EditTransactionParams;
 };
 
 const TransactionStack = createStackNavigator<TransactionStackParamList>();
@@ -23,6 +27,10 @@ const TransactionNavigator = () => {
       <TransactionStack.Screen
         name={NavigationConstant.AppScreens.TRANSACTION}
         component={TransactionDetailScreen}
+      />
+      <TransactionStack.Screen
+        name={NavigationConstant.AppScreens.EDIT}
+        component={EditTransactionScreen}
       />
     </TransactionStack.Navigator>
   );

@@ -10,4 +10,5 @@ export const FONT_SIZE_12 = 12;
 export const FONT_SIZE_15 = 15;
 export const FONT_SIZE_18 = 18;
 export const FONT_SIZE_20 = 20;
+export const FONT_SIZE_24 = 24;
 export const FONT_SIZE_36 = 36;

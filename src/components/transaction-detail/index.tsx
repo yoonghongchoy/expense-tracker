@@ -22,6 +22,7 @@ const TransactionDetail = ({
         <Text style={style.nameText}>Payee</Text>
         <Text style={style.valueText}>{payee}</Text>
       </View>
+      <View style={style.horizontalDivider} />
       <View style={style.midContainer}>
         <View>
           <Text style={style.nameText}>Transaction type</Text>
@@ -52,7 +53,8 @@ const style = StyleSheet.create({
     height: 340,
     backgroundColor: Colors.WHITE,
     borderRadius: 10,
-    marginTop: 50,
+    marginTop: 80,
+    marginBottom: 80,
     marginLeft: 'auto',
     marginRight: 'auto',
     padding: 40,
@@ -60,13 +62,14 @@ const style = StyleSheet.create({
   midContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginTop: 40,
-    marginBottom: 40,
+    marginTop: 20,
+    marginBottom: 20,
   },
   verticalDivider: {borderRightWidth: 1, borderColor: Colors.DARK_GRAY},
   horizontalDivider: {
     borderBottomWidth: 1,
     borderColor: Colors.LIGHT_GRAY,
+    marginTop: 20,
     marginBottom: 20,
   },
   nameText: {

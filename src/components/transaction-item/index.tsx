@@ -8,6 +8,7 @@ import {DailyTransactionScreenNavigationProps} from '../../screens/daily-transac
 
 interface TransactionItemProps {
   navigation: DailyTransactionScreenNavigationProps;
+  id: number;
   payee: string;
   type: TransactionConstant.TransactionType;
   category: TransactionConstant.CategoryType;
@@ -17,6 +18,7 @@ interface TransactionItemProps {
 
 const TransactionItem = ({
   navigation,
+  id,
   payee,
   type,
   category,
@@ -34,8 +36,10 @@ const TransactionItem = ({
       ]}
       onPress={() =>
         navigation.navigate(NavigationConstant.AppScreens.TRANSACTION, {
+          id,
           payee,
           type,
+          category,
           date,
           amount,
         })
@@ -75,6 +79,8 @@ const style = StyleSheet.create({
     width: 325,
     height: 63,
     marginBottom: 20,
+    marginLeft: 'auto',
+    marginRight: 'auto',
     flexDirection: 'row',
   },
   iconContainer: {
