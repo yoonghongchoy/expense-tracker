@@ -1,5 +1,7 @@
 # Expense Tracker
 
+This project is using React Native and React Redux.
+
 ## Requirements
 
 - [NodeJS v16.0.0](https://nodejs.org/en/);
